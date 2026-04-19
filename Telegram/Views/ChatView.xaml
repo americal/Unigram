@@ -1178,6 +1178,12 @@
             <RowDefinition Height="Auto" />
             <RowDefinition />
         </Grid.RowDefinitions>
+        <Grid Grid.ColumnSpan="2"
+              Grid.RowSpan="3"
+              IsHitTestVisible="False">
+            <Border Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
+            <controls:ProfilePatternCover Opacity="0.14" />
+        </Grid>
         <Border x:Name="HeaderBackground"
                 Background="{ThemeResource PageSubHeaderBackgroundBrush2}"
                 Visibility="Collapsed"
